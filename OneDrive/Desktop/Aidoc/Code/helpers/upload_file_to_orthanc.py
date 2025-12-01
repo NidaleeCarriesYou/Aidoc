@@ -1,6 +1,5 @@
 import requests
 
-#@error_logger
 def upload_file_to_orthanc(ORTHANC_URL, file_path, filename):
     # e. Upload to Orthanc via REST API
     with open(file_path, "rb") as f:
