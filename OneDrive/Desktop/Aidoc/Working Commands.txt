@@ -1,0 +1,5 @@
+Working Commands :
+
+C-ECHO - "echoscu -aec ORTHANC -aet TEST -v 127.0.0.1 4242 *>> commands_log.txt"
+C-FIND - "findscu -v -aec ORTHANC -aet MYSCU -S -k QueryRetrieveLevel=STUDY -k ModalitiesInStudy=CT 127.0.0.1 4242 *>> commands_log.txt"
+C-MOVE - 
